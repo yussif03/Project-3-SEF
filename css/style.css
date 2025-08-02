@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-color {
+    color: #34B7C0;
+}
+
+.navbar {
+    z-index: 3;
+}
+
+.navbar-brand {
+    background: linear-gradient(to bottom, #e207e2, #34B7C0); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line {
+    width: 3px;
+    height: 45px;
+    background-color: #34B7C0;
+    display: block;
+}
+
+.nav-link {
+    color: #34B7C0 !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #005E66 !important;
+    
+}
+
+.dropdown-item {
+    color: #34B7C0 !important;
+}
+
+.dropdown-item:hover {
+    color: #005E66 !important;
+}
+
+.btn {
+    background: #34B7C0;
+    color: white;
+}
+
+.form-control {
+    border: 1px solid #34B7C0 !important;
+}
+
+.modal-content {
+    border: none !important;
+}
+
+.modal-header {
+    background-color: #34b7c0;
+}
+
+.form-label {
+    color: #34B7C0;
+}
+
+.form-control:focus {
+    border-color: #34B7C0 !important;
+    box-shadow: 0 0 0 .08rem #34B7C0;
+}
+
+.form-control .btn:hover {
+    color: #005E66;
+}
+
+.form-check-input:checked {
+    background-color: #34B7C0 !important;
+    border-color: #34B7C0 !important;
+}
+
+.form-check-label {
+    color: #34B7C0;
+}
+
+.modal-backdrop {
+    z-index: 0;
+}
+
+.carousel-caption {
+    background-color: rgba(52, 183, 192, 0.8);
+    border-radius: 10px;
+}
+
+.carousel-inner img {
+    height: 100vh;
+}
+
+.carousel-caption button {
+    color: #34B7C0 ;
+}
+
+.carousel-caption button:hover {
+    color: #005E66 ;
+}
+
+.nav-icons {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    z-index: 1;
+}
+
+.nav-icons i {
+    display: block;
+    color: #34B7C0;
+    font-size: 45px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+
+.nav-icons i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-icons {
+        position: absolute;
+        top: 100px; 
+        right: 0px;
+        z-index: 2;
+    }
+    .nav-icons i {
+        display: inline;
+        cursor: pointer;
+    }
+}
+
+.section2, .section3 {
+    background-color: gainsboro;
+}
+
+.Welcome {
+    background-color: #7adde4;
+    border-radius: 5px;
+}
+
+.weltitle {
+    background: linear-gradient(to bottom, #e207e2, #34B7C0); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.welp {
+    font-size: 18px;
+}
+
+.welbtn {
+    color: #34B7C0;
+}
+
+.welbtn:hover {
+    color: #005E66;
+}
+
+hr {
+    height: 6px;
+}
+
+.popular {
+    background-color: #19828b;
+    border-radius: 5px;
+}
+
+.accordion-header button {
+    background: linear-gradient(to bottom, #e207e2, #34B7C0); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Translate-head {
+    background-color: #19828b;
+    border-radius: 5px;
+}
+
+.Translate-body {
+    background-color: #7adde4;
+    border-radius: 5px;
+}
+
+.Translate-body p span {
+    color: #005E66;
+}
+
+.tooltip-inner {
+    background: white;
+    color: #34B7C0;
+    font-weight: bold;
+}
+
+.tooltip.bs-tooltip-end .tooltip-arrow::before {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: white !important;
+}
+
+.div-img1 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/images/img1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 5px;
+}
+
+.dest {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.dest::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: rgba(64, 196, 236, 0.8);
+    z-index: 2;
+}
+
+.dest:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 1s;
+}
+
+.dest::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(64, 196, 236, 0.8);
+    z-index: 2;
+}
+
+.dest:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 1s;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 3;
+}
+
+.div-img2 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/images/img2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 5px;
+}
+
+.thank-div {
+    max-height: 500px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.thank-overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-bg-color {
+    background-color: #34B7C0;
+}
+
+.thank-title {
+    background: linear-gradient(to bottom, #e207e2, #19828b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.upper-content p {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lower-content p {
+    color: white;
+    font-weight: bold;
+}
+
+.lower-content img {
+    width: 110px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .thank-div {
+        max-width: 300px;
+    }
+}
+
+.thank-div:hover {
+    transform: scale(0.9);
+}
+
+.thank-div:hover .thank-overlay {
+    background-color: rgba(64, 196, 236, 0.3);
+}
+
+.upper-content {
+    transition: 0.5s;
+}
+
+.thank-div:hover .upper-content {
+    margin-top: 25px;
+}
+
+.podcast-main-title {
+    background: linear-gradient(to bottom, #e207e2, #34B7C0); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.podcast-parent {
+    background: linear-gradient(to left , white 20%, rgba(151, 205, 211, 0.5));
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.podcast-left, .podcast-right-1 {
+    width: 70%;
+}
+
+.podcast-right, .podcast-left-1 {
+    width: 25%;
+}
+
+.podcast-line {
+    width: 80px;
+    height: 4px;
+    background-color: #34B7C0;
+}
+
+.podcast-paragraph {
+    margin-bottom: 50px;
+    word-spacing: 5px;
+}
+
+@media (min-width: 1109px) {
+    .podcast-right img {
+        overflow: hidden;
+        transform: skewX(4deg) translateX(30px);
+        transform-origin: top left;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+.podcast-left-1 img {
+    overflow: hidden; 
+    transform: skewX(-4deg)  translateX(-30px);
+    transform-origin: top right;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+}
+
+@media (max-width: 1108px) {
+    .podcast-parent {
+        flex-direction: column;
+    }
+    .podcast-left,
+    .podcast-right-1 {
+        height: 70%;
+        width: 100%;
+    }
+
+    .podcast-left {
+        order: 1;
+    }
+
+    .podcast-right-1 {
+        order: 0;
+    }
+
+    .podcast-right,
+    .podcast-left-1{
+        height: 30%;
+    }
+
+    .podcast-right img , 
+    .podcast-left-1 img {
+        width: 100%;
+    }
+    .btn-mid {
+        margin-bottom: 10px;
+    }
+}
+
+.social-icons {
+    width: 250px;
+    height: 200px;
+}
+
+.social-icons img {
+    width: 80px;
+    height: 80px;
+}
+
+.social-title {
+    background: linear-gradient(to bottom, #e207e2, #34B7C0); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-icons p {
+    color: #34B7C0;
+}
+
+.footer {
+    background-color: #34B7C0;
+    width: 100%;
+    min-height: 65vh;
+}
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.footer-title {
+    background: linear-gradient(to bottom, #e207e2, #34B7C0); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.trips-li {
+    border: 2px solid #34B7C0;
+}
+
+.trips-li:hover {
+    border: 2px solid #005E66;
+}
+
+.imp-list li a {
+    text-decoration: none;
+    color: #005E66;
+}
+
+.imp-list li a:hover {
+    color: #19828b;
+}
